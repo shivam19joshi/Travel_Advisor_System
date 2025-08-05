@@ -41,4 +41,3 @@ if st.button("Suggest Destinations"):
         st.warning("No destinations match your budget and preferred month. Try increasing your budget or changing the month.")
 
 st.markdown("---")
-st.caption("Made with ❤️ in Streamlit by Shivam")
