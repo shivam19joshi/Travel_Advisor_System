@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sb
 
 # Load data
-df = pd.read_csv("../DataSets/SHOES.csv")
+df = pd.read_csv("SHOES.csv")
 
 # Clean Sales column
 df["Sales"] = df["Sales"].replace('[$,]', '', regex=True).astype("int64")
