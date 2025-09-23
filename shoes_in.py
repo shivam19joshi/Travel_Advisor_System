@@ -9,7 +9,7 @@ df = pd.read_csv("SHOES.csv")
 df["Sales"] = df["Sales"].replace('[$,]', '', regex=True).astype("int64")
 
 # Streamlit title
-st.title("Shoes Sales Dashboard (Interactive)")
+st.title("Shoes Sales Dashboard")
 
 # Region selection dropdown
 region = st.selectbox("Select a Region:", df["Region"].unique())
